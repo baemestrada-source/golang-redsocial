@@ -6,7 +6,7 @@ import (
 
 	"github.com/baemestrada-source/golang-redsocial/bd"
 	"github.com/baemestrada-source/golang-redsocial/models"
-	"github.com/dgrijalva/jwt-go"
+	jwt "github.com/dgrijalva/jwt-go"
 )
 
 /*Email valor de Email usado en todos los EndPoints */

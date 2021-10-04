@@ -1,6 +1,6 @@
 package models
 
-/*RespuestaLogin*/
+/*RespuestaLogin tiene el token que se devuelve con el login */
 type RespuestaLogin struct {
-	Token string `json: "token,omitempty"`
+	Token string `json:"token,omitempty"`
 }
